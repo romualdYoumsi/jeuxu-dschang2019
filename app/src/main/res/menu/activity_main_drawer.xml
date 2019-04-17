@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+
+
+    <group android:checkableBehavior="single"
+        >
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/home"
+            android:title="Actualiter" />
+        <item
+            android:id="@+id/nav_cptlive"
+            android:icon="@drawable/ic_av_timer_black_24dp"
+            android:title="Competition live" />
+        <item
+            android:id="@+id/nav_classemt"
+            android:icon="@drawable/ic_sort_black_24dp"
+            android:title="Classement" />
+        <item
+            android:id="@+id/nav_logement"
+            android:icon="@drawable/hotel"
+            android:title="Trouver un logement" />
+        <item
+            android:id="@+id/nav_discover_site"
+            android:icon="@drawable/site"
+            android:title="Decrouvrire site" />
+        <item
+            android:id="@+id/nav_heat"
+            android:icon="@drawable/phamarcie"
+            android:title="Santé" />
+        <item
+            android:id="@+id/nav_actualiter"
+            android:icon="@drawable/account"
+            android:title="Actualité jeux U" />
+        <item
+            android:id="@+id/nav_security"
+            android:icon="@drawable/security"
+            android:title="Securité" />
+        <item
+            android:id="@+id/nav_village_des_jeux"
+            android:icon="@drawable/account"
+            android:title="Village des jeux" />
+        <item
+            android:id="@+id/nav_profils"
+            android:icon="@drawable/account"
+            android:title="@string/profil" />
+        <item
+            android:id="@+id/nav_moment"
+            android:icon="@drawable/share"
+            android:title="Partager vos meilleur moment" />
+
+        
+
+    </group>
+
+
+</menu>

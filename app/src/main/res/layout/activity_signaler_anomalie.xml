@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    tools:context=".Securiter.SignalerAnomalie">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageView
+            android:id="@+id/img_signaler"
+            android:layout_width="match_parent"
+            android:layout_height="400dp" />
+        <com.rengwuxian.materialedittext.MaterialEditText
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/edt_localisation"
+            android:hint="Locatisation "
+            android:textSize="18sp"
+            app:met_floatingLabel="highlight"
+            android:gravity="center"
+            android:inputType="textAutoComplete"
+            />
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Prendre Image"
+            android:background="@color/primaryDarkColor"
+            android:id="@+id/btn_prendre_img"/>
+        <Spinner
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/spinnerList">
+
+        </Spinner>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Envoyer"
+            android:background="@color/primaryDarkColor"
+            android:id="@+id/btn_send"/>
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_alignParentEnd="true"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+        <TextView
+            android:gravity="center"
+            android:text="By njiketude"
+            android:textSize="25dp"
+            android:layout_width="match_parent"
+            android:id="@+id/txt_nom_joueur"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:gravity="center"
+            android:text="Avant-centre"
+            android:textSize="15dp"
+            android:layout_width="match_parent"
+            android:id="@+id/txt_post_joueur"
+            android:layout_height="wrap_content" />
+
+    </LinearLayout>
+

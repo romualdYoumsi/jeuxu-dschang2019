@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Jeux U</string>
+    <string name="navigation_drawer_open">Ouvrir le tiroir de navigation</string>
+    <string name="navigation_drawer_close">Fermer le tiroir de navigation</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Réglages</string>
+
+
+
+    <string-array name="list_spinner_sexe">
+        <item>Man</item>
+        <item>Women</item>
+    </string-array>
+    <string-array name="list_spinner_anomalie">
+        <item>Police</item>
+        <item>Securite</item>
+    </string-array>
+    <string name="title_activity_maps_location">Map</string>
+    <string name="offre_touristique">Offre touristique</string>
+    <string name="souligne">--------</string>
+    <string name="dshang">Dshang</string>
+    <string name="foot">Football</string>
+    <string name="hand">HandBall</string>
+    <string name="basket">Basket Ball</string>
+    <string name="volley">VolleyBall</string>
+    <string name="tennis">Tennis</string>
+    <string name="tennisTable">Tennis de table</string>
+    <string name="luttes">Luttes</string>
+    <string name="handisport">Handisport</string>
+    <string name="athletisme">Athletisme</string>
+    <string name="judo">Judo</string>
+    <string name="fan">Fan Club</string>
+    <string name="nom">Nom</string>
+    <string name="prenom">Prenom</string>
+    <string name="email">Email</string>
+    <string name="mot_passe">Mot de passe</string>
+    <string name="confirmationMP">Confirmation</string>
+    <string name="numero">Numero</string>
+    <string name="universite_de_provenance">Universite de provenance</string>
+    <string name="localiter">Localiter</string>
+    <string name="suivant">Suivant</string>
+    <string name="s_lectionner_vos_pr_f_rences">Sélectionner vos préférences</string>
+    <string name="tout_s_lectionner">Tout sélectionner</string>
+    <string name="terminer">Terminer</string>
+    <string name="verification">Verification...</string>
+    <string name="internet_is_required">Internet est requis!</string>
+    <string name="info_supplementaire">Info Supplementaire</string>
+    <string name="entrer_votre_nom">Entrer votre nom</string>
+    <string name="entrer_provenance">Entrer votre ville de provenance</string>
+    <string name="entrer_passe">Entrer votre mot de passe</string>
+    <string name="confirmer_passe">Mot de passe incorrect</string>
+    <string name="competition">Competition</string>
+    <string name="composition">Composition</string>
+    <string name="statistique">Statistique</string>
+    <string name="encour">(En cour...)</string>
+    <string name="termine">(Terminer)</string>
+    <string name="avenir">A venir</string>
+    <string name="changer_language">Changer language</string>
+    <string name="ou_via">ou via</string>
+    <string name="s_inscrire_normalement">S\'inscrire normalement</string>
+    <string name="se_conneter">Se Connecter</string>
+    <string name="connexion">Connexion</string>
+    <string name="s_identifier">S\'identifier</string>
+    <string name="bienvenue">Bienvenue</string>
+    <string name="jeu_en_ligne">JEU EN LIGNE</string>
+    <string name="bienvenue_au_j_u_2019">Bienvenue au J.U. 2019</string>
+    <string name="dschang_bandjoun_foumban">Dschang-Bandjoun-Foumban</string>
+    <string name="profil">Profil</string>
+    <string name="numero_de_telephone">numero de telephone</string>
+    <string name="mettre_jour">Mettre à jour</string>
+    <string name="en_cour">En cour</string>
+    <string name="a_venir">A venir</string>
+    <string name="aime">Aime</string>
+    <string name="partager">partager</string>
+    <string name="general">Generale</string>
+</resources>

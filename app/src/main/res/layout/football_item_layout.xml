@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="240dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@drawable/rectangle_light"
+    app:cardCornerRadius="8dp"
+    app:contentPadding="5dp"
+    app:cardElevation="8dp"
+    app:cardBackgroundColor="@android:color/white"
+    app:cardUseCompatPadding="true">
+<RelativeLayout
+    android:layout_width="match_parent"
+    android:id="@+id/score"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center_vertical">
+    <LinearLayout
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:paddingBottom="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:weightSum="10"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:layout_marginBottom="10dp"
+            android:layout_height="wrap_content">
+            <TextView
+                android:id="@+id/txt_statut_renc"
+                android:layout_weight="3"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="Terminer"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+
+                android:textSize="12sp"/>
+            <TextView
+                android:id="@+id/txt_date_renc"
+                android:layout_weight="6"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:text="12-1-2019 : 14h45"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+
+                android:textSize="12sp"/>
+
+
+
+
+        </LinearLayout>
+        <LinearLayout
+            android:weightSum="2.5"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="100sp">
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+                <ImageView
+                    android:id="@+id/img_equipe_one"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    />
+                <TextView
+                    android:id="@+id/txt_equipe_one"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="equipe 1"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"/>
+
+
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.5"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_weight="1"
+                android:layout_alignParentStart="true"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical"
+
+                >
+                <ImageView
+                    android:id="@+id/img_equipe_two"
+                    android:gravity="center"
+                    android:layout_width="80dp"
+                    android:layout_height="80dp"
+                    />
+                <TextView
+                    android:id="@+id/txt_equipe_two"
+                    android:layout_weight="1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="equipe 2"
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:textColor="@android:color/black"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+
+                android:layout_centerHorizontal="true"
+                android:id="@+id/txt_stade_renc"
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Stade B"
+                android:textColor="@android:color/black"
+                android:gravity="center"
+                android:textSize="12sp"/>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="150dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="0.5"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/txt_score_total"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:text="Contre"
+            android:textColor="@android:color/black" />
+    </LinearLayout>
+</RelativeLayout>
+
+</android.support.v7.widget.CardView>

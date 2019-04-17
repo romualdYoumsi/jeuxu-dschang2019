@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Securiter.Securite">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <android.support.v7.widget.CardView
+            xmlns:android="http://schemas.android.com/apk/res/android"
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            xmlns:tools="http://schemas.android.com/tools"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/rectangle_light"
+            app:cardBackgroundColor="@android:color/white"
+            app:cardCornerRadius="8dp"
+            app:cardElevation="8dp"
+            app:cardUseCompatPadding="true"
+            app:contentPadding="5dp">
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:id="@+id/securite_contacter"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:background="@drawable/numeroicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                      <LinearLayout
+                          android:layout_centerHorizontal="true"
+                          android:layout_centerVertical="true"
+                          android:orientation="vertical"
+                          android:layout_width="match_parent"
+                          android:layout_height="wrap_content">
+                          <LinearLayout
+                                android:layout_gravity="center"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content"
+                             >
+
+                              <TextView
+                                  android:textColor="@android:color/white"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:text="Numéros utiles/Pratiques"
+                                  android:textSize="25dp" />
+                          </LinearLayout>
+                        <LinearLayout
+                            android:layout_gravity="center"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content">
+
+                            <TextView
+                                android:textColor="@android:color/white"
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:text="--------"
+                                android:textSize="25dp" />
+                        </LinearLayout>
+                          <LinearLayout
+                              android:layout_gravity="center"
+                              android:layout_width="wrap_content"
+                              android:layout_height="wrap_content">
+
+                              <TextView
+                                  android:textColor="@android:color/white"
+                                  android:layout_width="match_parent"
+                                  android:layout_height="match_parent"
+                                  android:text="Contactez en cas de probleme"
+                                  android:textSize="25dp" />
+                          </LinearLayout>
+                      </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/securite_consigne"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:background="@drawable/consigneicon"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <LinearLayout
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                >
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Consignes de securité"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="--------"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Respectez SVP"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_marginTop="20dp"
+                    android:id="@+id/securite_signaler"
+                    android:layout_width="match_parent"
+                    android:layout_height="190dp"
+                    android:orientation="vertical">
+
+                    <RelativeLayout
+                        android:background="@drawable/signalerico"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent">
+
+
+
+                        <LinearLayout
+                            android:layout_centerHorizontal="true"
+                            android:layout_centerVertical="true"
+                            android:orientation="vertical"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content">
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                >
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Signaler un anomalie"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="--------"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                            <LinearLayout
+                                android:layout_gravity="center"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content">
+
+                                <TextView
+                                    android:textColor="@android:color/white"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="match_parent"
+                                    android:text="Denoncer"
+                                    android:textSize="25dp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </RelativeLayout>
+
+                </LinearLayout>
+
+
+            </LinearLayout>
+
+        </android.support.v7.widget.CardView>
+    </ScrollView>
+
+</android.support.constraint.ConstraintLayout>

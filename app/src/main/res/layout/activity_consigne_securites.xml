@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Securiter.Consigne_securites">
+    <TextView
+        android:layout_margin="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Madame, Monsieur bonjour, mon nom est By njiketude et je suis votre chef de cabine. Le commandant de bord Cedrico et l'ensemble de l'équipage ont le plaisir de vous accueillir , compagnie membre de JeuxU.
+
+Nous nous assureons de votre sécurité et de votre confort durant ce vol à destination de Paris orly ouest. Le temps de vol sera de 8h00.
+Nous vous souhaitons un très bon voyage.
+
+Nous vous informons que les bagages à main doivent être placés dans les coffres ou sous les sièges devant vous.
+Les portes et issues de secours doivent être dégagées de tout bagages.
+Les téléphones portables doivent être impérativement éteints à bord et ce, jusqu'à l'arrivée au parking de destination, merci.
+
+Nous vous rappellons que ce vol est non-fumeur et qu'il est strictement interdit de fumer dans les toilettes.
+Les démonstrations de sécurité vont vous êtres présentées sur l'écran, accordez nous quelques instants d'attention, merci."
+        />
+
+</LinearLayout>
